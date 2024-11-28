@@ -243,8 +243,8 @@ This project is [MIT](./LICENSE) licensed.
 <!-- LINK GROUP -->
 
 [back-to-top]: https://img.shields.io/badge/-BACK_TO_TOP-222628?style=flat-square
-[profile-link]: https://github.com/mintplex-labs
-[vector-admin]: https://github.com/mintplex-labs/vector-admin
+[profile-link]: https://github.com/ym-solutions
+[vector-admin]: https://github.com/ym-solutions/vector-admin
 [assistant-swarm]: https://github.com/Mintplex-Labs/openai-assistant-swarm
 [docker-btn]: ./images/deployBtns/docker.png
 [docker-deploy]: ./docker/HOW_TO_USE_DOCKER.md
