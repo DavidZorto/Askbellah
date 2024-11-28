@@ -5,14 +5,14 @@
 :root {
   /* Default theme */
   --theme-loader: #ffffff;
-  --theme-bg-primary: #0e0f0f;
-  --theme-bg-secondary: #1b1b1e;
+  --theme-bg-primary: #0a192f;
+  --theme-bg-secondary: #112240;
   --theme-bg-sidebar: #0e0f0f;
   --theme-bg-container: #0e0f0f;
   --theme-bg-chat: #1b1b1e;
   --theme-bg-chat-input: #27282a;
-  --theme-text-primary: #ffffff;
-  --theme-text-secondary: rgba(255, 255, 255, 0.6);
+  --theme-text-primary: #e6f1ff;
+  --theme-text-secondary: rgba(230, 241, 255, 0.7);
   --theme-sidebar-item-default: rgba(255, 255, 255, 0.1);
   --theme-sidebar-item-selected: rgba(255, 255, 255, 0.3);
   --theme-sidebar-item-hover: #3f3f42;
@@ -38,8 +38,9 @@
   --theme-settings-input-text: #ffffff;
   --theme-modal-border: #3f3f42;
 
-  --theme-button-primary: #46c8ff;
-  --theme-button-primary-hover: #434343;
+  --theme-button-primary: #2563eb;
+  --theme-button-primary-hover: #1e40af;
+  --theme-border-radius: 8px;
 
   --theme-file-row-even: #0e0f0f;
   --theme-file-row-odd: #1b1b1e;
@@ -131,19 +132,7 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family:
-    "plus-jakarta-sans",
-    -apple-system,
-    BlinkMacSystemFont,
-    Segoe UI,
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    Fira Sans,
-    Droid Sans,
-    Helvetica Neue,
-    sans-serif;
+  font-family: 'Inter', sans-serif;
   background-color: white;
 }
 
@@ -211,6 +200,15 @@ a {
   transform: scale(0);
   animation: message2 0.15s ease-out 0s forwards;
   animation-delay: 50ms;
+}
+
+@keyframes subtleFade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 @keyframes message2 {
